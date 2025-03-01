@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACCOUNT</title>
-    <link rel="disgnAcount" href="disgnAcount.css">
+    <link rel="disgnAcount" href="/4uxgm/disgnAcount.css">
     <script src="https://kit.fontawesome.com/4fa9a42824.js" crossorigin="anonymous"></script>
     <style>
         body{
