@@ -1,0 +1,117 @@
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1 viewport-fit=cover, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <style>
+      body {
+        background-image : linear-gradient(#132D46 , #191E29 );
+        margin: 0 auto;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      #bp-web-widget-container {
+        max-height: 90%;
+        width: 481px;
+        margin: auto;
+        flex-grow: 1;
+      }
+      #bp-web-widget-container div {
+        height: 100%;
+      }
+      .webchatIframe {
+        position: absolute !important;
+      right: 30rem !important;
+      }
+	  
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+height: 420px;
+cursor: pointer;
+position: relative;
+right: 170px;
+top: 40px;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+}
+
+.nav2 li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+.nav2 li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.sc{
+  position: center; 
+}
+    </style>
+    <title>GameChatbot</title>
+  </head>
+  <body>
+
+    
+        <div class="container">
+<div class="navbar">
+    <img src="4ux.png" class="logo">
+    <nav class="nav">
+        <ul class="nav2">
+                <li><a href="index.php">home</a></li>
+            <li><a href="form.php">account</a></li>
+            <li><a href="https://discord.gg/GTF2mpkV">connect us</a></li>
+            </ul>
+        
+    </nav>
+   
+</div>
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js" class="sc"></script>
+<script class="sc">
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "This chatbot was built surprisingly fast with Botpress",
+      "botId": "23831fc3-acd4-4441-aa59-ca56fc718332",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "23831fc3-acd4-4441-aa59-ca56fc718332",
+      "webhookId": "33427eed-3351-4833-a169-f1668b2b5f7b",
+      "lazySocket": true,
+      "themeName": "prism",
+      "frontendVersion": "v1",
+      "showPoweredBy": true,
+      "theme": "prism",
+      "themeColor": "#4682B4",
+      "hideWidget": true,
+      "disableAnimations": true,
+      "closeOnEscape": false,
+      "showConversationsButton": false,
+      "enableTranscriptDownload": false,
+      "className": "webchatIframe",
+      "containerWidth": "100%25",
+      "layoutWidth": "100%25",
+      "showCloseButton": false
+  });
+window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+</script>
+
+  </body>
+</html>
