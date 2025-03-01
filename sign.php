@@ -1,6 +1,6 @@
 <html>
 <head>
-<link rel="stylesheet" href="mm.css" type="text/css"/>
+<link rel="stylesheet" href="/4uxgm/mm.css" type="text/css"/>
 </head>
 <body>
 <div class="container" id="container">
